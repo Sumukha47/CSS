@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+*{
+  background-color: aliceblue;
+}
+
+section{
+    color:rgb(201, 14, 238);
+}
+
+#single{
+        font-size: 20px;
+        color:rgb(170, 42, 42);
+        
+}
+
+.same{
+    font-size: 20px;
+    color:rgb(17, 167, 117);
+}
+
+main{
+    background-color: bisque;
+    color: black;
+}
+
+footer,nav,h3{
+    background-color: chartreuse;
+    color: brown;
+}
