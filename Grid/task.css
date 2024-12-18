@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 80px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: 3px solid underline;
+}
+#grid-container{
+    height: 2500px;
+    width: 90%;
+    background-color: rgb(44, 37, 37);
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px 5px;
+}
+.items{
+    background-color:white;
+    border: 2px solid black;
+}
+#grid-items1{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    background-color: cornflowerblue;
+  
+}
+#grid-items2{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    background-color:crimson;
+
+}
+#grid-items3{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    grid-row-start:1 ;
+    grid-row-end:4 ;
+    background-color:darkorange;
+}
+#grid-items4{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:4 ;
+    grid-row-end:7;
+    background-color:darkturquoise;
+}
+#grid-items5{
+    grid-column-start:2;
+    grid-column-end:3 ;
+    grid-row-start:4;
+    grid-row-end:7 ;
+    background-color: deeppink;
+}
+#grid-items6{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    grid-row-start:4 ;
+    grid-row-end:7 ;
+    background-color:forestgreen;
+}
+#grid-items7{
+    grid-column-start:1;
+    grid-column-end:2 ;
+    grid-row-start:7 ;
+    grid-row-end:14 ;
+    background-color:gold;
+
+}
+
+#grid-items8{
+    grid-column-start:2;
+    grid-column-end:3 ;
+    grid-row-start:7 ;
+    grid-row-end:14 ;
+    background-color:lawngreen;
+}
+
+#grid-items9{
+    grid-column-start:3;
+    grid-column-end:4 ;
+    grid-row-start:7 ;
+    grid-row-end:14 ;
+    background-color:mediumslateblue;
+}
+img{
+    border: 0px inset blue;
+    margin: 30px auto;
+}
+p{
+    text-transform: capitalize;
+    width: 70%;
+    margin: 30px auto;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#man{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h1{
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            text-decoration: 5px dashed black underline ;
+        }
+        h2{
+            position: absolute;
+            top: 100px;
+            left: 450px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        div{
+            display: inline;
+        }
+        div::after{
+            content: "HTML";
+            animation: text 5s linear 0s infinite;
+        }
+        @keyframes text {
+            0%{
+                content:"HTML";
+                color: black;
+            }
+            20%{
+                content:"CSS";
+                color: blueviolet;
+            }
+            40%{
+                content:"Js";
+                color:  chocolate;
+            }
+            60%{
+                content:"Vanilla Js";
+                color: cyan;
+            }
+            80%{
+                content:"Hue Js";
+                color: deeppink;
+            }
+            100%{
+                content:"The End";
+                color:red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animations in CSS</h1>
+    <h2>I Love <div> </div></h2>
+</body>
+</html>

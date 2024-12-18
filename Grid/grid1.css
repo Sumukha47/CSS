@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid-container{
+    height: 500px;
+    width: 80%;
+    background-color: black;
+    display: grid;
+    grid-template-areas: "hdr hdr hdr hdr hdr"
+                         "hdr hdr hdr hdr hdr"
+                         "nav nav nav nav nav"
+                         "man man man stn stn"
+                         "man man man stn stn"
+                         "man man man art art"
+                         "man man man art art"
+                         "ftr ftr ftr ftr ftr"
+                         "ftr ftr ftr ftr ftr" ;
+    gap: 3px;
+}
+
+.items{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+#grid-items1{
+    grid-area: hdr;
+    background-color: aquamarine;
+    color: black;
+}
+#grid-items2{
+    grid-area: nav;
+    background-color: chartreuse;
+    color: black;
+}
+#grid-items3{
+    grid-area: man;
+    display: grid;
+    grid-template-areas: "abc abc def def"
+                         "abc abc def def"
+                         "ghi ghi jkl jkl"
+                         "ghi ghi jkl jkl";
+    gap: 3px;
+}
+.items{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+#grid-items7{
+    grid-area: abc;
+    background-color: burlywood;
+    background-image: url("https://cdn.pixabay.com/photo/2024/01/08/15/54/defile-8495836_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#grid-items8{
+    grid-area: def;
+    background-color: darkviolet;
+    background-image: url("https://cdn.pixabay.com/photo/2024/12/11/22/48/path-9261477_640.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#grid-items9{
+    grid-area: ghi;
+    background-color: indianred;
+    background-image: url("https://cdn.pixabay.com/photo/2024/11/29/08/41/family-9232499_640.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#grid-items10{
+    grid-area: jkl;
+    background-color: paleturquoise;
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/10/03/59/lynx-7253623_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#grid-items4{
+    grid-area: stn;
+    background-color: crimson;
+    place-self: center;
+}
+#grid-items4>p{
+    width: 200px;
+}
+#grid-items5{
+    grid-area: art;
+    background-color: gold;
+    color: black;
+}
+#grid-items6{
+    grid-area: ftr;
+    background-color: tomato;
+}

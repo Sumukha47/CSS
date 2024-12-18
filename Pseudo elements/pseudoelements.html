@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+    <style>
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+    color: coral;
+}
+#section{
+    height: 400px;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img{
+    height: 300px;
+    width: 40%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/01/03/red-panda-1851590_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 60% 500px;
+}
+#para>p{
+    width: 100%;
+}
+#para{
+    width: 40%;
+    text-align: justify;
+    text-indent: 30px;
+}
+#para>p::first-letter{
+    color: red;
+    font-size: 35px;
+}
+
+#para>p::first-line{
+    color: darkred;
+}
+#para>p::before{
+    content: "😊";
+}
+#para>p::after{
+    content: "THANK YOU";
+    color: forestgreen;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para>p::selection{
+    background-color: maroon;
+    color: wheat;
+}
+li::marker{
+    color:teal;
+    font-size: 30px;
+}
+ol{
+    display: inline-block;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>pseudo-element</h1>
+
+    <div id="section">
+        <div id="img"></div>
+
+        <div id="para">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea officiis natus! Reiciendis hic aut voluptate rem cumque, temporibus optio quisquam praesentium officiis architecto enim vero voluptatem sapiente, fuga similique nemo. At provident ipsam eveniet cupiditate dolore rerum, ab, amet reiciendis velit ut alias saepe recusandae iste eaque dolorem vero deleniti quos atque minus tenetur, consectetur eius. Corrupti quasi libero cumque totam dolor quisquam tempora asperiores iusto, sint porro voluptate, fugiat ab obcaecati odit, eum explicabo facere nemo sunt quibusdam necessitatibus at repellat similique vero debitis! Cupiditate veritatis ipsam tempore dolor ullam. Quam officiis debitis nihil aspernatur assumenda asperiores dolor.
+            </p>
+            <ol>
+                <li>button1</li>
+                <li>button2</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

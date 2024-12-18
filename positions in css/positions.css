@@ -1,0 +1,56 @@
+body{
+    background-color: khaki;
+}
+#position{
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#relative{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(66, 173, 107);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+#absolute{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(40, 187, 197);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+}
+#fixed{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(212, 42, 190);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+#sticky{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(135, 194, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 100spx;
+}
+p{
+    text-align: justify;
+    letter-spacing: 2px;
+    text-indent: 150px;
+}

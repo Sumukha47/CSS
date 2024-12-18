@@ -1,0 +1,163 @@
+body{
+    background-color: blanchedalmond;
+}
+
+#title{
+    text-align: center;
+    text-shadow: 5px 5px 5px coral;
+    font-size: 45px;
+    width: 180px;
+    border-style: groove;
+    border-radius: 10%;
+    border-width: 20px;
+    border-color: burlywood;
+    margin: 50px auto;
+}
+
+/* table{
+    border: 10px;
+    border-style: solid;
+    border-color: black;
+} */
+
+#card1{
+border:5px solid black;
+width: 270px;
+height: 520px;
+background-color:forestgreen;
+border-radius: 30px;
+margin: 0px 0px 250px 0px;
+box-shadow: 15px 15px 15px peru;
+}
+#card2{
+border:5px solid black;
+width: 270px;
+height: 520px;
+background-color: gold;
+border-radius: 30px;
+margin: 0px 0px 250px 0px;
+box-shadow: 15px 15px 15px peru;
+}
+#card3{
+    border:5px solid black;
+    width: 270px;
+    height: 520px;
+    background-color: red;
+    border-radius: 30px;
+    margin: 0px 0px 250px 0px;
+    box-shadow: 15px 15px 15px peru;
+    }
+    #card4{
+        border:5px solid black;
+        width: 270px;
+        height: 520px;
+        background-color: cadetblue;
+        border-radius: 30px;
+        margin: 0px 0px 250px 0px;
+        box-shadow: 15px 15px 15px peru;
+        }
+        #card5{
+            border:5px solid black;
+            width: 270px;
+            height: 520px;
+            background-color: orchid;
+            border-radius: 30px;
+            margin: 0px 0px 250px 0px;
+            box-shadow: 15px 15px 15px peru;
+            }
+    
+#img{
+height:200px;
+width:250px;
+background-image: url("https://cdn.pixabay.com/photo/2021/09/03/15/37/mountain-6596074_640.jpg");
+background-repeat: no-repeat;
+background-size: 250px 250px;
+margin: 10px;
+border-radius: 20px;
+}
+#img2{
+height:200px;
+width:250px;
+background-image: url("https://cdn.pixabay.com/photo/2016/01/16/22/15/waterfalls-1144130_640.jpg");
+background-repeat: no-repeat;
+background-size: 250px 250px;
+margin: 10px;
+border-radius: 20px;
+}
+#img3{
+height:200px;
+width:250px;
+background-image: url("https://cdn.pixabay.com/photo/2022/11/08/05/53/fall-7577769_1280.jpg");
+background-repeat: no-repeat;
+background-size: 250px 250px;
+margin: 10px;
+border-radius: 20px;
+}
+#img4{
+height:200px;
+width:250px;
+background-image: url("https://cdn.pixabay.com/photo/2024/06/22/05/25/bear-8845470_640.jpg");
+background-repeat: no-repeat;
+background-size: 250px 250px;
+margin: 10px;
+border-radius: 20px;
+}
+#img4{
+    height:200px;
+    width:250px;
+    background-image: url("https://cdn.pixabay.com/photo/2024/06/22/05/25/bear-8845470_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    margin: 10px;
+    border-radius: 20px;
+    }
+#img5
+{
+    height:200px;
+    width:250px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/13/22/25/bird-1905255_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    margin: 10px;
+    border-radius: 20px;
+    }
+    #para1{
+text-align: justify;
+width: 250px;
+margin: 10px;
+color: black;
+text-indent: 30px;
+}
+#para2{
+    text-align: justify;
+    width: 250px;
+    margin: 10px;
+    color: black;
+    text-indent: 30px;
+    }
+    #para3{
+        text-align: justify;
+        width: 250px;
+        margin: 10px;
+        color: black;
+        text-indent: 30px;
+        }
+        #para4{
+            text-align: justify;
+            width: 250px;
+            margin: 10px;
+            color: black;
+            text-indent: 30px;
+            }
+            #para5{
+                text-align: justify;
+                width: 250px;
+                margin: 10px;
+                color: black;
+                text-indent: 30px;
+                }
+
+.btn{
+margin: 10px 120px;
+}
+

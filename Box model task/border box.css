@@ -1,0 +1,12 @@
+*{
+box-sizing: border-box;
+}
+
+p{
+    width: 500px;
+    height: 300px;
+    padding: 20px 80px;
+    border: 20px solid blue;
+    margin: 20px 50px 10px;
+
+}

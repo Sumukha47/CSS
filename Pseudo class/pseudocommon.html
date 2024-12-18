@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo common</title>
+    <style>
+        main h1
+        {
+            color: red;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        #parent1>h1
+        {
+            color: blue;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        /* #parent1>h1:first-child
+        {
+         color: yellowgreen;
+         background-color: bisque;
+        }
+        #parent2>p:last-child
+        {
+            color: chocolate;
+            font-size: 50px;
+        }
+        #parent1>p:nth-child(3)
+        {
+            background-color: black;
+            color: aquamarine;
+        } */
+        #parent1>h1:first-of-type
+        {
+            color: rebeccapurple;
+            background-color: yellow;
+        } 
+        #parent1>p:last-of-type
+        {
+            color: rebeccapurple;
+            background-color: yellow;
+        }
+        #parent1>p:nth-last-child(3)
+        {
+            background-color: red;
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="parent1">
+            <article>Hi</article>
+            <!-- <h1>Heading one</h1>
+            <h1>Heading one of one</h1> -->
+            <p>paragraph</p>
+            <p>I am the first para</p>
+            <h1>I am last</h1>
+        </div>
+
+        <div id="parent2">
+            <h1>Heading two</h1>
+            <h1>Heading one of two</h1>
+            <p>paragraph</p>
+        </div>
+    </main>
+    
+</body>
+</html>

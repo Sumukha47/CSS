@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            background-color: black;
+            color: white;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            width: 100%;
+        }
+        #contents{
+            display: flex;
+            width: 35%;
+            justify-content: space-around;
+            font-size: 20px;
+        }
+        #contents+#cart{
+            color: burlywood;
+        }
+        nav>#home{
+            color: darkseagreen;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="home">
+            <h1>Home</h1>
+        </div>
+        <div id="contents">
+            <p>services</p>
+            <p>products</p>
+            <p>history</p>
+        </div>
+        <div id="cart">
+            <h1>cart</h1>
+        </div>
+    </nav>
+    
+</body>
+</html>

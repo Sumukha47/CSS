@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        #animation{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellowgreen;
+            /* margin: 100px auto; */
+            position: relative;
+            top: 150px;
+            left: 400px;
+            color: white;
+            animation-name: box;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: 10;
+            animation-direction: reverse;
+        }
+        body{
+            background-color: bisque;
+            text-align: center;
+            color: cadetblue;
+        }
+        @keyframes box {
+            /* from{
+                background-color: yellowgreen;
+            }
+            to{
+                background-color: red;
+            } */
+            0%{
+                background-color: yellowgreen;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                background-color: yellow;
+                font-size: 30px;
+                position: relative;
+                top: 0px;
+                left: 500px;
+            }
+            50%{
+                background-color: orange;
+                position: relative;
+                top: 500px;
+                left: 500px;
+            }
+            75%{
+                background-color: red;
+                position: relative;
+                top: 500px;
+                left: 0px;
+            }
+
+            100%{
+                background-color: navy;
+                font-size: 50px;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation in CSS</h1>
+    <div id="animation">
+        box
+    </div>
+</body>
+</html>

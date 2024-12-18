@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+#plane1{
+    background-image: url("plane1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+   animation-name: planes1;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-direction: reverse;
+}
+@keyframes planes1 {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 800px;
+    }
+}
+#plane2{
+    background-image: url("plane2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    animation-name: planes2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+ @keyframes planes2 {
+     from{
+         left: 0px;
+     }
+     to{
+         left: 1000px;
+     }
+ }
+
+#kiran{
+    background-image: url("birds.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    animation-name: kiran;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+ @keyframes kiran {
+     from{
+         left: 0px;
+     }
+     to{
+         left: 1200px;
+     }
+ }
+#grass{
+    background-image: url("grass.png");
+    background-repeat: repeat-x;
+    height: 200px;
+    width: 900px;
+    position: absolute;
+    top: 300px;
+}
+#lake{
+    background-image: url("lake.png");
+    height: 190px;
+    width: 100vh;
+    position: absolute;
+    top: 310px;
+    left: 750px;
+}
+#boat{
+    background-image: url("boat.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50px;
+    width: 100vh;
+    position: absolute;
+    top: 460px;
+    left: 850px;
+    animation-name: boat;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+ @keyframes boat {
+     from{
+         left: 850px;
+     }
+     to{
+         left: 1200px;
+     }
+ }
+#road{
+    background-image: url("road.jpg");
+    height: 180px;
+    position: relative;
+    bottom: 5px;
+}
+/* #car1{
+    background-image: url("car.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    position: relative;
+    bottom: 150px;   
+    left: 1200px;
+    animation-name: car1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+ }
+ @keyframes car1 {
+     from{
+         left: 0px;
+     }
+     to{
+         left: 1200px;
+     }
+ } */
+#car2{
+    background-image: url("car2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    position: relative;
+    bottom: 200px; 
+    animation-name: car2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+ @keyframes car2 {
+     from{
+         left: 0px;
+     }
+     to{
+         left: 1200px;
+     }
+ }
+#bike1{
+    background-image: url("bike.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    position: relative;
+    bottom: 240px;   
+    left: 800px;
+    animation-name: bike1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+ }
+ @keyframes bike1 {
+     from{
+         left: 0px;
+     }
+     to{
+         left: 1200px;
+     }
+ }
+/* #bike2{
+    background-image: url("bike2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    position: relative;
+    bottom: 660px;   
+    left: 350px;
+    animation-name: bike2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+ @keyframes bike2 {
+     from{
+         left: 0px;
+     }
+     to{
+         left: 1000px;
+     }
+ }
+ */

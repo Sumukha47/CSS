@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: navy;
+}
+#main1{
+ display: flex;
+ color: white;
+ justify-content: space-between;
+ align-items: center;
+}
+#div1{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 50%;
+    transition-duration: 2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main1>h2{
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div1>h3:first-child:hover{
+    color: dodgerblue;
+}
+#div1>h3:nth-child(2):hover{
+    color: dodgerblue;
+}
+#div1>h3:nth-child(3):hover{
+    color: dodgerblue;
+}
+#div1>h3:nth-child(4):hover{
+    color: dodgerblue;
+}
+#div1>h3:last-child:hover{
+    color: dodgerblue;
+}
+#main2{
+    display: flex;
+    width: 45%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+#m21>h1{
+    position: absolute;
+    top: 50px;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#m21>p{
+    position: absolute;
+    top: 250px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn1{
+    background-color: dodgerblue;
+    color: white;
+    position: absolute;
+    top: 400px;
+    height: 50px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img1{
+    background-image: url("slider-img.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    position: relative;
+    top: 0px;
+    left: 800px;
+    animation-name: img1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-duration: 1s;
+}
+@keyframes img1 {
+    from{
+        top:0px;
+    }
+    to{
+        top: 50px;
+    }
+}
+
+#main3{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: lightblue;
+}
+#div2{
+    position: relative;
+    top: 80px;
+}
+#div2>h1,h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div2>h3{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+#para{
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+#btn2{
+    background-color: dodgerblue;
+    color: white;
+    position: absolute;
+    top: 350px;
+    height: 50px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para>h2{
+    position: absolute;
+    top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para>p{
+    position: absolute;
+    top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img2{
+    background-image: url("about-img.png");
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 900px;
+    background-size: contain;
+    position: absolute;
+    right: 800px;
+}
+#main4{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 700px;
+}
+#main4>h1,h3{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main4>h3{
+    position: relative;
+    top: 30px;
+}
+#contents1{
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+#card1{
+    width: 25%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 350px;
+    color:  black;
+    border: 10px;
+    background-color: white;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img3{
+    background-image: url("s1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+#card1>h3{
+    color: black;
+}
+#card1>h3{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+#card1>p{
+    position: absolute;
+    top: 200px;
+}
+#card1>p:nth-child(4){
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+#card1>p:nth-child(4):hover{
+    color: dodgerblue;
+}
+#card2{
+    width: 25%;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    height: 350px;
+    color:  black;
+    border: 10px;
+    background-color: white;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img4{
+    background-image: url("s2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+#card2>h3{
+    color: black;
+}
+#card2>h3{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+#card2>p{
+    position: absolute;
+    top: 200px;
+}
+#card2>p:nth-child(4){
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+#card2>p:nth-child(4):hover{
+    color: dodgerblue;
+}
+#card3{
+    width: 25%;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    height: 350px;
+    color:  black;
+    border: 10px;
+    background-color: white;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img5{
+    background-image: url("s3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+#card3>h3{
+    color: black;
+}
+#card3>h3{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+#card3>p{
+    position: absolute;
+    top: 200px;
+}
+#card3>p:nth-child(4){
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+#card3>p:nth-child(4):hover{
+    color: dodgerblue;
+}
+
+#main5{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: lightblue;
+}
+#main5>h1{
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 80px;
+}
+#content2{
+    display: flex;
+    position: relative;
+    top: 80px;
+    right: 40px;
+}
+#card4{
+    width: 20%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    height: 400px;
+    color: white;
+    background-color: navy;
+    border: 10px;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img6{
+    background-image: url("team-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#card4>h3{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    color: dodgerblue;
+}
+#card4>p{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    color: white;
+}
+#img7{
+    background-image: url("social.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+#card5{
+    width: 20%;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    height: 400px;
+    color: white;
+    background-color: navy;
+    border: 10px;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img8{
+    background-image: url("team-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#card5>h3{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    color: dodgerblue;
+}
+#card5>p{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    color: white;
+}
+#img9{
+    background-image: url("social.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+#card6{
+    width: 20%;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    height: 400px;
+    color: white;
+    background-color: navy;
+    border: 10px;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img10{
+    background-image: url("team-3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#card6>h3{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    color: dodgerblue;
+}
+#card6>p{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    color: white;
+}
+#img11{
+    background-image: url("social.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+#card7{
+    width: 20%;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    height: 400px;
+    color: white;
+    background-color: navy;
+    border: 10px;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#img12{
+    background-image: url("team-4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+#card7>h3{
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    color: dodgerblue;
+}
+#card7>p{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    color: white;
+}
+#img13{
+    background-image: url("social.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+
+#main6{
+    width: 100%;
+    height: 700px;
+}
+#contents3{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#address{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#info{
+    color: white;
+    width: 10%;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Links{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Subscribe{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#eml{
+    background-color: navy;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#eml::placeholder{
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btn3{
+        background-color: dodgerblue;
+        color: white;
+        position: absolute;
+        top: 120px;
+        height: 50px;
+        width: 300px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
